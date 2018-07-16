@@ -41,6 +41,7 @@ body {
 @media (min-width: 1200px) {
   .container {
     width: 1170px; } }
+
 .kodilla-heading--main {
   margin: 20px auto;
   text-align: center;
@@ -99,7 +100,8 @@ body {
   padding: 10px;
   flex-grow: 1; }
 
-.datatable__row-section--button-section {
+.datatable__row-section--button-section,
+.datatable__row-section--trello-section {
   margin-left: auto;
   align-self: center;
   flex-shrink: 1;
@@ -133,6 +135,10 @@ body {
   min-width: 120px;
   line-height: 1.25;
   border-radius: 4px; }
+
+.datatable__select {
+  display: block;
+  margin-bottom: 10px; }
 
 .datatable__tasks-container:empty {
   position: relative; }
