@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  const apiRoot = 'https://shielded-wave-84208.herokuapp.com/v1/';
+  const apiRoot = 'https://shielded-wave-84208.herokuapp.com/v1/tasks';
   const trelloApiRoot = 'https://shielded-wave-84208.herokuapp.com/trello/';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
